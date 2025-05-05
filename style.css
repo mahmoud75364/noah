@@ -196,11 +196,11 @@ color: transparent;
     font-size: 20px;
     position: relative;
     transition: transform 0.3s ease;
-    
+    border: 1px solid rgba(255, 225, 0, 0.133);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.369);
+    box-shadow: 0 4px 20px rgba(167, 136, 15, 0.369);
     padding: 10px 20px;
     border-radius: 10px;
     display: table-column-group;
@@ -212,7 +212,7 @@ color: transparent;
     box-sizing: border-box; /* تضمن حساب padding ضمن العرض */
     text-align: center; /* محاذاة النص */
     white-space: nowrap;
-    background: rgba(1, 21, 103, 0.321) !important;
+    background: rgba(5, 13, 128, 0.321) !important;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);*/
 }
