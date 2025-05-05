@@ -117,7 +117,7 @@ body {
 .card .content h2 {
     font-weight: 700;
     text-align: left;
-    background: linear-gradient(45deg, #5600eb, #776005, #624b05, #7d5505);
+    background: linear-gradient(45deg, #ebb800, #776005, #624b05, #7d5505);
 background-size: 400% 400%;
    /* animation: gradientAnimation 15s infinite alternate;*/
 -webkit-background-clip: text;
@@ -154,7 +154,7 @@ color: transparent;
     
     flex-grow: 1;
     text-align: center;
-    background: linear-gradient(35deg, #eba500, #978d08, #400790, #3404f3);
+    background: linear-gradient(35deg, #eba500, #978d08, #263dc4, #3404f3);
     background-size: 400% 400%;
     /*animation: gradientAnimation 15s infinite alternate;*/
     -webkit-background-clip: text;
@@ -196,11 +196,11 @@ color: transparent;
     font-size: 20px;
     position: relative;
     transition: transform 0.3s ease;
-    border: 1px solid rgba(255, 225, 0, 0.133);
+    
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(167, 136, 15, 0.369);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.369);
     padding: 10px 20px;
     border-radius: 10px;
     display: table-column-group;
@@ -212,7 +212,7 @@ color: transparent;
     box-sizing: border-box; /* تضمن حساب padding ضمن العرض */
     text-align: center; /* محاذاة النص */
     white-space: nowrap;
-    background: rgba(48, 5, 128, 0.321) !important;
+    background: rgba(1, 21, 103, 0.321) !important;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);*/
 }
